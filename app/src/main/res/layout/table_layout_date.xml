@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="5dp">
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:columnCount="2"
+        app:rowCount="4"
+        >
+        <TextView
+            android:text="题名："
+            />
+        <TextView
+            android:id="@+id/name"
+            />
+        <TextView
+            android:text="条形码："
+            />
+        <TextView
+            android:id="@+id/num"
+            />
+        <TextView
+            android:text="状态："
+            />
+        <TextView
+            android:id="@+id/state"
+            />
+        <TextView
+            android:text="索书号："
+            />
+        <TextView
+            android:id="@+id/call_num"
+            />
+
+    </android.support.v7.widget.GridLayout>
+</LinearLayout>

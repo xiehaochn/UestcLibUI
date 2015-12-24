@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e6e6e6"
+    >
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        app:useDefaultMargins="true"
+        app:orientation="horizontal"
+        app:columnCount="7"
+
+        >
+    <EditText
+        android:id="@+id/search_et"
+        app:layout_row="0"
+        app:layout_column="0"
+        app:layout_columnSpan="6"
+        app:layout_gravity="fill"
+        android:hint="请输入查询内容"
+        android:maxLines="2"
+        />
+    <Button
+        app:layout_column="6"
+        android:id="@+id/search_bt"
+        android:text="搜索"
+        android:background="#3F51B5"
+        />
+        <RadioGroup
+            android:id="@+id/rg"
+            app:layout_columnSpan="6"
+            app:layout_gravity="center"
+            android:orientation="horizontal"
+            >
+    <RadioButton
+        android:id="@+id/rb1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="关键字" />
+    <RadioButton
+        android:id="@+id/rb2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="作者" />
+    <RadioButton
+        android:id="@+id/rb3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="题名" />
+    <RadioButton
+        android:id="@+id/rb4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="主题" />
+        </RadioGroup>
+
+
+
+    </android.support.v7.widget.GridLayout>
+    <ListView
+        android:id="@+id/search_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </ListView>
+</LinearLayout>

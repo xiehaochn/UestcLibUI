@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">科大藏经阁</string>
+    <string name="collection">收藏书籍</string>
+    <string name="detail">书籍详情</string>
+    <string-array name="menu_item">
+        <item name="menu_1">书籍检索</item>
+        <item name="menu_2">个人中心</item>
+        <item name="menu_3">借阅查询</item>
+        <item name="menu_4">我的收藏</item>
+        <item name="menu_5">关于</item>
+    </string-array>
+    <string name="open">open</string>
+    <string name="close">close</string>
+    <string name="user_data">个人中心</string>
+    <string name="content_subtitle">书籍检索</string>
+    <string name="tab_title1">馆藏查询</string>
+    <string name="tab_title2">学术资源</string>
+    <string name="msg1">尊敬的读者:\n您已登入[电子科技大学图书馆]</string>
+    <string name="about">\t\t\t\t科大藏经阁是一款针对电子科技大学图书馆的馆藏图书查询系统，通过网络将用户感兴趣的书籍简介、作者信息、书籍具体位置呈现在手机界面上，方便用户的借阅查询。校内用户还可以通过科大信息门户系统帐号登录，查询借阅记录、借阅期限等信息。</string>
+</resources>

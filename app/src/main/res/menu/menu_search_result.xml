@@ -1,0 +1,10 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.hawx.uestclibui.SearchResultActivity" >
+    <item android:id="@+id/collection"
+        android:title="@string/collection"
+        android:orderInCategory="100"
+        android:icon="@drawable/ic_collection"
+        app:showAsAction="always" />
+</menu>
